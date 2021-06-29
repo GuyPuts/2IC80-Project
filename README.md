@@ -22,7 +22,7 @@
 	The file can either be run with parameters for macAttacker, ipAttacker, macVictim, ipVictim, and interface, or hard-coded.<br>
 	The file is run with parameters by default (meaning they are required), but can be run hard-coded by commenting line 6 and uncommenting line 7 of the script.<br>
 	The used network adapter/interface is the default Linux network adapter, enp0s31f6.<br>
-	If you want to use a different network adapter, then replace enp0s31f6 by the desired adapter in initial_MITM_script.sh and credentials_entered.sh.
+	If you want to use a different network adapter, then replace enp0s31f6 by the desired adapter in credentials_entered.sh and in the call to initial_MITM_script.sh.
 
 5. Open a webbrowser on the victim machine and go to the address `192.168.1.108` (default camera address) on the VICTIM machine. You will now see the spoofed login page.<br>
 	Enter an arbitrary (not the real) username and password; you will see a prompt that it is incorrect.<br>
