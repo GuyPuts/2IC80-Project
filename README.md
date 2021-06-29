@@ -24,7 +24,7 @@
 	The used network adapter/interface is the default Linux network adapter, enp0s31f6.<br>
 	If you want to use a different network adapter, then replace enp0s31f6 by the desired adapter in initial_MITM_script.sh and credentials_entered.sh.
 
-5. Go to 192.168.1.108 (default camera address) on the VICTIM machine. You will now see the spoofed login page.<br>
+5. Open a webbrowser on the victim machine and go to the address `192.168.1.108` (default camera address) on the VICTIM machine. You will now see the spoofed login page.<br>
 	Enter an arbitrary username and password; you will see a prompt that it is incorrect.<br>
 	Enter the correct username and password (username: admin; password: Hackerman).<br>
 	You will be redirected to the fake video page, where you will see that the feed is fake.
