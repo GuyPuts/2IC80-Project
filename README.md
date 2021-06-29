@@ -4,7 +4,7 @@
 
 #### The ATTACKER machine must be running some version of Linux (preferably an Ubuntu-based distribution such as Mint); the VICTIM machine may run any OS. ####
 
-0. Go to 192.168.1.108 on the VICTIM machine, you will see the real camera login page.<br>
+0. Open a webbrowser on the victim machine and go to the address `192.168.1.108` (default camera address) on the VICTIM machine, you will see the real camera login page.<br>
 	Current username: admin<br>
 	Current password: Hackerman<br>
 	Install the plugin that is asked for; this is part of regular camera functioning. The plugin is called NACL and can be found after installation by typing in 'NACL' in the start menu.)<br> You should now see the real camera feed. Verify that it is working and interactive by playing with the movement controls.
