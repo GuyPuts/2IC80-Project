@@ -18,7 +18,7 @@
 3. Navigate to /opt/lampp/htdocs/dashboard<br>
 	Select all files in the folder this README is in, and copy them to the dashboard directory.<br>
 	
-4. Run initial_MITM_script.sh using the command `./initial_MITM_script.sh <em> macAttacker ipAttacker macVictim ipVictim interface </em>`<br>
+4. Run initial_MITM_script.sh using the command `./initial_MITM_script.sh macAttacker ipAttacker macVictim ipVictim interface`<br>
 	The file can either be run with parameters for macAttacker, ipAttacker, macVictim, ipVictim, and interface, or hard-coded.<br>
 	The file is run with parameters by default (meaning they are required), but can be run hard-coded by commenting line 6 and uncommenting line 7 of the script.<br>
 	The used network adapter/interface is the default Linux network adapter, enp0s31f6.<br>
