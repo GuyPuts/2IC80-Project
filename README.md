@@ -7,7 +7,7 @@
 (0. Go to 192.168.1.108 on the VICTIM machine, you will see the real camera login page.<br>
 	Current username: admin<br>
 	Current password: Hackerman<br>
-	Install the plugin that is asked for; this is part of regular camera functioning. The plugin is called NACL and can be found after installation by typing in 'NACL' in the start menu.)<br>
+	Install the plugin that is asked for; this is part of regular camera functioning. The plugin is called NACL and can be found after installation by typing in 'NACL' in the start menu.)<br> You should now see the real camera feed. Verify that it is working and interactive by playing with the movement controls.
 
 1. Install XAMPP on the ATTACKER machine. This is an Apache server.<br>
 	Download link: https://www.apachefriends.org/download.html<br>
